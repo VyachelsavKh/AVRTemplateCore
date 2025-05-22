@@ -1,0 +1,12 @@
+ldi - 1
+in - 1
+out - 1
+ori - 1
+andi - 1
+cbi - 2
+sbi - 2
+
+in + ori + out = 3
+sbi * n = 2n
+2n < 3 -> n <= 1
+Если нужно изменить два и более бит, то лучше делать in + ori + out
